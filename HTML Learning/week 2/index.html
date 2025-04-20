@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week 2</title>
+</head>
+<body>
+    <h1>HTML List</h1>
+    <h3>Ordered List</h3>
+    <ol type="i">
+        <li>Peter</li>
+        <li>Sameta</li>
+        <li>Magaba</li>
+        <li>Dunda</li>
+    </ol>
+    <h1>here is unorderd list</h1>
+    <h3>schools</h3>
+    <ul>
+        <li>Lundazi Day Secondary school</li>
+        <li>Tigone Day Secondary school</li>
+        <li>Lumezi Day Secondary school</li>
+    </ul>
+
+    <h1>Images in HTML </h1>
+    <img src="nice.jpg" alt="supermarket" width="300" height="400">
+<h1>List of Names</h1>
+    <table border="">
+        <tr>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Contact</td>
+        </tr>
+        <tbody>
+            <td>Peter</td>
+            <td>peternyirongo34@gmail.com</td>
+            <td>0770134038</td>
+        </tbody>
+    </table>
+ <h1>Forms</h1>
+
+
+ <div class="form-container">
+    <h2>Register</h2>
+    <form action="#" method="post">
+      <label for="first">First Name:</label>
+      <input type="text" id="first" name="first" required />
+<br><br>
+      <label for="last">Last Name:</label>
+      <input type="text" id="last" name="last" required />
+<br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+<br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required
+             pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+             title="Must contain at least one number, one uppercase and lowercase letter, and at least 8 or more characters" />
+<br><br>
+      <label for="confirm">Confirm Password:</label>
+      <input type="password" id="confirm" name="confirm" required />
+<br>
+  <div class="form-group">
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required />
+  </div>
+<br>
+  <!-- Dropdown -->
+  <div class="form-group">
+    <label for="country">Country:</label>
+    <select id="country" name="country" required>
+      <option value="">--Select your country--</option>
+      <option value="zm">Zambia</option>
+      <option value="ke">Kenya</option>
+      <option value="ng">Nigeria</option>
+      <option value="gh">Ghana</option>
+    </select>
+  </div>
+<br>
+  <!-- Radio Buttons -->
+  <div class="form-group">
+    <label>Gender:</label>
+    <div class="radio-group">
+      <label><input type="radio" name="gender" value="male" required /> Male</label>
+      <label><input type="radio" name="gender" value="female" /> Female</label>
+      <label><input type="radio" name="gender" value="other" /> Other</label>
+    </div>
+  </div>
+<br>
+  <!-- Checkboxes -->
+  <div class="form-group">
+    <label>Interests:</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="interests" value="coding" /> Coding</label>
+      <label><input type="checkbox" name="interests" value="music" /> Music</label>
+      <label><input type="checkbox" name="interests" value="sports" /> Sports</label>
+    </div>
+  </div>
+<br>
+  <!-- Submit Button -->
+  <div class="form-group">
+    <button type="submit">Register</button>
+  </div
+
+</body>
+</html>
